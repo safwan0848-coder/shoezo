@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/Icon.png">
+    <title>Shoezo</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg bg-body-tertiary border-2 border-bottom border-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#shoe">Shoes</a></li>
+            <li><a class="dropdown-item" href="#chappal">chappals</a></li>
+            <li><a class="dropdown-item" href="#accessorie">Accessories</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<nav class="navbar bg-body-tertiary ">
+  <div class="container-fluid">
+    <span class="navbar-text fw-bold text-center w-100">
+      <em>UPDATE YOUR STEPZ </em>
+    </span>
+  </div>
+</nav>
+<!-- main body -->
+ <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/main-1.jpg" class=" d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/main-2.jpg" class=" d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/main-3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<!-- products -->
+<div class="row row-cols-1 row-cols-md-3 g-4" id="shoe">
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Adidas Samba</h5>
+        <p class="card-text">A leather upper with a suede T-shaped toe cap.The iconic three serrated stripes on the side.A gum rubber outsole.</p>
+      <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 4999</h5></span>
+        <h5 class="text-success">Rs : 3499</h5>
+        <button class="btn btn-primary">Buy Now</button>
+    </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 days ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Campus 00s</h5>
+        <p class="card-text">The shoes feature a black suede upper with white leather three-stripe branding and a white heel tab. They have a white midsole and a gum rubber outsole</p>
+     <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 5499</h5></span>
+        <h5 class="text-success">Rs : 3999</h5>
+        <button class="btn btn-primary">Buy Now</button>
+    </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 1 week ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Adidas Gazelle</h5>
+        <p class="card-text">low-profile silhouette with a suede upper and the signature serrated three-stripe design.</p>
+      <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 5999</h5></span>
+        <h5 class="text-success">Rs : 4499</h5>
+        <button class="btn btn-primary">Buy Now</button>
+    </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 2 week ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nike Air Jordan 1 Retro High OG "Dark Mocha"</h5>
+        <p class="card-text">This shoe is a modern classic that features a combination of a white leather base, black leather overlays, and Dark Mocha-colored nubuck on the heel and collar.</p>
+     <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 7999</h5></span>
+        <h5 class="text-success">Rs : 6499</h5>
+        <button class="btn btn-primary">Buy Now</button>
+    </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 2 days ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nike TC 7900</h5>
+        <p class="card-text">The shoe's design is inspired by early 2000s running footwear.  It features a padded collar and soft foam cushioning for added comfort.</p>
+     <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 4999</h5></span>
+        <h5 class="text-success">Rs : 3599</h5>
+        <button class="btn btn-primary">Buy Now</button>
+    </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 1 weeks ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nike Killshot 2</h5>
+        <p class="card-text">The shoe features a gum sole, a grey suede upper, and a white leather Swoosh logo.The Killshot 2 is a popular model known for its retro, tennis-inspired design.</p>
+      <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 5999</h5></span>
+        <h5 class="text-success">Rs : 4999</h5>
+        <button class="btn btn-primary">Buy Now</button>
+    </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 1 weeks ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-7.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Puma 180</h5>
+        <p class="card-text">A chunky design with oversized padding.A lo-fi technical upper.A combination of materials, including a closed mesh base with suede and synthetic leather overlays.</p>
+     <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 8999</h5></span>
+        <h5 class="text-success">Rs : 7999</h5>
+        <button class="btn btn-primary">Buy Now</button>
+    </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 5 days ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-8.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Puma Palermo Vintage</h5>
+        <p class="card-text">The sneaker is a classic "terrace" style shoe with a signature T-toe construction and a gum sole. It combines a vintage silhouette with modern materials</p>
+      <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 4599</h5></span>
+        <h5 class="text-success">Rs : 2999</h5>
+        <button class="btn btn-primary">Buy Now</button>
+    </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 1 weeks ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-9.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Puma Speedcat</h5>
+        <p class="card-text">Aclassicmotorsport-inspired sneaker with a low-profile design. The upper is made of suede, and it has a rubber outsole.</p>
+      <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 4999</h5></span>
+        <h5 class="text-success">Rs : 3599</h5>
+        <button class="btn btn-primary">Buy Now</button>
+    </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 2 weeks ago</small>
+      </div>
+    </div>
+  </div>
+   <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-10.jpg" class="card-img-top" alt="..." id="chappal">
+      <div class="card-body">
+        <h5 class="card-title">Nylon Slipper</h5>
+        <p class="card-text">The slides are known for their minimalist aesthetic and comfort. They are made with materials like nylon and neoprene. The specific style shown in the image is often referred to as the "Nylon Slipper".</p>
+      <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 1599</h5></span>
+        <h5 class="text-success">Rs : 999</h5>
+        <button class="btn btn-primary">Buy Now</button>
+    </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 1 weeks ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-11.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Y/OSEMITE by James Perse.</h5>     
+        <p class="card-text">Made from materials designed for breathability, often associated with athletic gear from the same brand.</p>
+      <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 1299</h5></span>
+        <h5 class="text-success">Rs : 899</h5>
+        <button class="btn btn-primary">Buy Now</button>
+    </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 2 weeks ago</small>
+      </div>
+    </div>
+  </div>
+   <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-12.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Birkenstock Arizona sandals</h5>
+        <p class="card-text">The Birkenstock Arizona is a classic two-strap sandal with individually adjustable metal buckles.</p>
+        <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 1199</h5></span>
+        <h5 class="text-success">Rs : 799</h5>
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 weeks ago</small>
+      </div>
+    </div>
+  </div>
+   <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-13.jpg" class="card-img-top" alt="..." id="accessorie">
+      <div class="card-body">
+        <h5 class="card-title">Rings</h5>
+        <p class="card-text">8 Ball Rings: Two rings feature a black circle with the number 8, similar to an 8-ball from pool. One is a bold, round design, while the other is a signet-style ring <br>Star Ring: A ring with a prominent star design <br>
+Cuban Ring: A ring with a chain-link or Cuban link design.</p>
+        <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 499</h5></span>
+        <h5 class="text-success">Rs : 399</h5>
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 1 month ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-14.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">silver cross choker necklace</h5>
+        <p class="card-text">The necklace is a multi-strand choker featuring a thick chain, a thinner chain with a cross pendant, and a long dangling chain. It has a gothic or alternative aesthetic</p>
+        <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 499</h5></span>
+        <h5 class="text-success">Rs : 399</h5>
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 2 days ago</small>
+      </div>
+    </div>
+  </div>
+   <div class="col">
+    <div class="card h-100">
+      <img src="images/stock-15.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Vintage Style Glass</h3>
+        <p class="card-text">The sunglasses in the image are a type of vintage or retro-style hexagonal sunglasses. While the exact brand is not definitively identified</p>
+       <span class="text-danger" style="text-decoration: line-through;"> <h5>Rs : 1799</h5></span>
+        <h5 class="text-success">Rs : 999</h5>
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<footer class="bg-black text-white">
+   <div class="container-fluid text-center text-md-start py-4 border-bottom border-2 border-secondary">
+          <div class="row " >
+            <div class="col-12 col-sm-6 col-lg-3" id="about">          
+           <ul class="list-unstyled">
+            <li><h4>Products</h4></li>
+            <li>Shoes</li>
+            <li>chappals</li>
+            <li>Accessories</li>
+           </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+          
+           <ul class="list-unstyled" >
+            <li><h4>Brands</h4></li>
+          <li>Adidas</li>
+          <li>Nike</li>
+          <li>Puma</li>
+          </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+           
+            <ul class="list-unstyled">
+                <li><h4>Support</h4></li>
+           <li>Help</li>
+           <li>Customer Services</li>
+           <li>Return & Exchanges</li>
+           <li>Shipping</li>
+           <li>Order Tracker</li>
+           </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+            
+             <ul class="list-unstyled">
+                <li><h4>Company info</h4></li>
+            <li>About us</li>
+            <li>Careers</li>
+            <li>Entity Information</li>
+            </ul>
+            </div>
+          </div>
+    </div>
+    <div class="foot-2 container-fluid py-3 text-center">
+       <p>© 2025, Shoezo Powered by Shopify</p>
+    </div>
+</footer>
+    <!-- bootstrap -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
